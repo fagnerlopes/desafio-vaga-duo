@@ -5,3 +5,190 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Montserrat', sans-serif; 
+  color: #999; 
+}
+
+strong {
+  color: #000;
+  font-weight: 600;
+}
+
+.container {
+  margin: 30px 100px;
+}
+
+#header {  
+  width: 100%;
+  min-height: 500px;
+  background-image: linear-gradient(to right, #fff 40%, transparent 70%), url('../images/header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#header-text {
+  width: 28%;
+  margin-top: 140px; 
+  margin-left: 100px;
+  
+}
+
+#header-text h2 {
+  color: #E1A607;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+#header-text p {
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+#header-text a {
+  text-decoration: underline;
+  color: #A141EB;
+  font-weight: 600;
+}
+
+#nav { 
+  height: 3.8rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#nav-left {
+  width: 60%;
+  background-color: #A141EB;
+  border-radius: 0 0 4.5rem 0;
+}
+
+#nav-rigth {
+  width: 40%;
+  height: 100%;
+}
+
+#nav-buttons {
+  position: absolute;
+  width: 100%;
+  height: 3.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  z-index: 3;
+  margin-left: 100px;
+}
+
+#nav-buttons-left {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#nav-buttons-rigth {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  top: 0;
+  right: 0;
+  margin-top: -30px;  
+}
+
+.btn {
+  text-transform: uppercase;
+  height: 40px;
+  border: 0;
+  font-size: 0.6rem;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn p {
+  margin-left: 10px;
+}
+
+.btn-franqueado, .btn-area-restrita {
+  background-color: #E1A607;  
+}
+
+
+.btn-consultor {
+  background-color: #7928B7;
+}
+
+.btn-comprar {
+  background-color: #09CEF4;
+}
+
+.btn-area-restrita {
+  border-radius: 0 0 8px 8px;
+  margin-right: 40%;  
+}
+
+#questions {
+  width: 70% ;
+  margin-top: 70px;
+}
+
+.card {
+  border-top: 1px solid rgb(199, 199, 199);  
+  margin-top: 35px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  margin-top: -15px;
+}
+
+.card-title {
+  height: 100%;
+  background-color: #f1f1f1;
+  padding-right: 30px;
+  font-weight: 800;
+  cursor: pointer;
+  color: #7928B7;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.card-icon {
+  width: 50px;
+  height: 100%;
+  background-color: #f1f1f1;
+  background: url('../images/icons/seta.png') no-repeat center, #f1f1f1;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 20px 20px 20px 0;
+  min-height: 0;
+  display: none;
+}
+
+#footer {
+  height: 3rem;
+  background-color: #A141EB;
+  margin-top: 50px;
+}
