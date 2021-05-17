@@ -12,9 +12,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/custom.css">
+  <link rel="stylesheet" href="./assets/css/mobile.css">
 </head>
 <body>
   <header id="header">
+    <nav class="nav-mobile">
+      <span class="hamburguer"></span>
+    </nav>
     <nav id="nav">
         <div id="nav-left"></div>
         <div id="nav-right"></div>  
