@@ -49,21 +49,19 @@
       </div>      
   </header>
   <section class="container">
-    <div id="questions">
-      <?php foreach($duvidas->lista_tarefas as $duvida): ?>
-      <div class="questions-item">        
-        <div class="card">          
-            <div class="card-header">              
-                <button class="card-title" onClick="ocultarExibir(<?= $duvida->id ?>)"><?= $duvida->titulo ?></button>
-                <button class="card-icon" onClick="ocultarExibir(<?= $duvida->id ?>)"></button>                                    
+      <div class="accordion">
+      <?php foreach($duvidas->lista_tarefas as $duvida): ?>              
+        <div id="card-<?= $duvida->id ?>" class="card">          
+            <div id="<?= $duvida->id ?>" class="card-header">              
+                <button id="card-title-<?= $duvida->id ?>" class="card-title"><?= $duvida->titulo ?></button>
+                <button id="card-icon-<?= $duvida->id ?>" class="card-icon"></button>                                    
             </div>
-          <div id="<?= $duvida->id ?>" class="card-body">
+          <div id="card-body-<?= $duvida->id ?>" class="card-body">
           <?= $duvida->descricao ?>
           </div>
-        </div>
-      </div>
+        </div>      
       <?php endforeach; ?>
-    </div>
+      </div>
   </section>
   <footer id="footer"></footer>
   <script src="./assets/js/script.js"></script>
