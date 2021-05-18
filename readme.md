@@ -1,7 +1,7 @@
 # Desafio - Vaga Desenvolvedor PHP
 
 ### Preview
-<'https://fagnerlopes.com.br/duo-desafio/'>
+Você pode visualizar o projeto publicado [clicando aqui](https://fagnerlopes.com.br/duo-desafio/)
 
 Arquivos em anexo:
 *	Arquivo .json para simular um banco de dados
@@ -26,7 +26,7 @@ Criar uma página de um site conforme o layout em anexo com front-end responsivo
 
 ### Layout base para o desenvolvimento
 
-![Leyout]('./leiaute')
+![Layout]('./leiaute.png')
 
 ### Uso do projeto
 
