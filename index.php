@@ -1,7 +1,7 @@
 <?php
   $pathFileJson = "backend/duvidas.json";
   if(!file_exists($pathFileJson)) {
-    exit('Falha ao carregar os dados');
+    header('Location: erro.php');
   }
   $duvidas = json_decode(file_get_contents("backend/duvidas.json"));
 

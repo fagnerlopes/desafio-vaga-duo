@@ -18,14 +18,13 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Duo Studio Interativo | Agência Digital 360º" />
 	<meta property="og:site_name" content="Duo Studio Interativo" />
-	<meta property="og:image" content="https://duo.studio//img/avatar.jpg" />
 	<meta property="og:description" content="Agência digital 360º certificada Great Place to Work e parceira Diamond da Resultados Digitais">
-
-  <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+	
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/custom.css">
   <link rel="stylesheet" href="./assets/css/mobile.css">
+	<script src="https://kit.fontawesome.com/838353d9e6.js" crossorigin="anonymous"></script>
 </head>
 <body>
   

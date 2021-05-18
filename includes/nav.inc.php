@@ -1,7 +1,18 @@
 <header id="header">
     <nav class="nav-mobile">
-      <span class="hamburguer"></span>
+      <a class="nav-icon">
+        <i class="fas fa-bars fa-2x"></i>        
+      </a>      
     </nav>
+    <div id="menu" class="menu">
+      <ul class="menu-list">
+        <li class="menu-list-item"><a href="#" class="active">Seja um franqueado</a></li>
+        <li class="menu-list-item"><a href="#">Seja um consultor(a)</a></li>
+        <li class="menu-list-item"><a href="#">Quero comprar</a></li>
+        <li class="menu-list-item"><a href="#">Área restrita</a></li>
+      </ul>      
+    </div>
+
     <nav id="nav">
         <div id="nav-left"></div>
         <div id="nav-right"></div>  
