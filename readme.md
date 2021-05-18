@@ -33,7 +33,7 @@ Criar uma página de um site conforme o layout em anexo com front-end responsivo
 1. Clonar e iniciar o projeto
 ~~~bash
 git clone https://github.com/fagnerlopes/desafio-vaga-duo.git
-cd teste-duo
+cd dasafio-vaga-duo
 php -S localhost:3000
 ~~~
 
