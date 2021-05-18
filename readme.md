@@ -38,6 +38,8 @@ php -S localhost:3000
 ~~~
 
 2. Acessar a url pelo navegador
+<http://localhost:3000/>
+
 
 
 
