@@ -26,7 +26,7 @@ Criar uma página de um site conforme o layout em anexo com front-end responsivo
 
 ### Layout base para o desenvolvimento
 
-![Layout]('./leiaute.png')
+![Layout]('leiaute.png')
 
 ### Uso do projeto
 

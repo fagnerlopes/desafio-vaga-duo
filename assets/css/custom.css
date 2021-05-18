@@ -50,7 +50,7 @@ strong {
 
 #header-text a {
   text-decoration: underline;
-  color: #A141EB;
+  color: #9773FF;
   font-weight: 600;
 }
 
@@ -62,7 +62,7 @@ strong {
 
 #nav-left {
   width: 60%;
-  background-color: #A141EB;
+  background-color: #9773FF;
   border-radius: 0 0 4.5rem 0;
 }
 
@@ -131,7 +131,7 @@ strong {
 
 
 .btn-consultor {
-  background-color: #7928B7;
+  background-color: #602BCF;
 }
 
 .btn-comprar {
@@ -167,7 +167,7 @@ strong {
   background-color: #f1f1f1;
   padding-right: 30px;
   cursor: pointer;
-  color: #7928B7;
+  color: #9773FF;
   font-weight: 800;
   font-size: 1.2rem;
 }
@@ -203,7 +203,7 @@ strong {
 
 #footer {
   height: 3rem;
-  background-color: #A141EB;
+  background-color: #9773FF;
   margin-top: 50px;
 }
 

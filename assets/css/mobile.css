@@ -26,7 +26,7 @@
 
   .nav-mobile a,
   .nav-mobile a:active {
-    color: #7928B7;
+    color: #9773FF;
   }
 
   .nav-mobile a:hover {
@@ -39,7 +39,7 @@
     min-height: 100%;
     transform: translateX(-100%);
     transition: all .25s linear; 
-    background-color: #7928b7d8;
+    background-color: #9673ffe7;
     font-weight: 800;
     text-transform: lowercase;
     padding: 100px 20px 40px 20px;
