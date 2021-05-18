@@ -245,3 +245,20 @@ strong {
   background-color: #A141EB;
   margin-top: 50px;
 }
+
+.erro {
+  width: 60%;
+  margin: 15% auto;
+}
+
+.erro strong {
+  font-weight: 900;
+  color: #999;
+  font-size: 5rem;
+}
+
+.erro p {
+  font-weight: 400;
+  margin-top: 30px;
+  line-height: 1rem;
+}
